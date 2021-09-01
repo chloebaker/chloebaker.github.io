@@ -4,6 +4,7 @@ body {
 }
 
 header {
+  background-color: #FFC65A;
   font-family: 'Astloch', cursive;
   font-weight: 700;
   font-size: 80px;
@@ -12,4 +13,5 @@ header {
 
 header img {
   height: 85px;
+  width: auto;
 }
