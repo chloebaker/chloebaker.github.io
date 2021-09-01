@@ -1,19 +1,22 @@
 
 body {
-  
+
 }
 
 header {
-  background-color: black;
-  font-color: white;
   padding: 10px;
+}
+
+.jumbotron {
+  background-color: black;
   text-align: center;
 }
 
-h1 {
+.jumbotron h1 {
   font-family: 'Astloch', cursive;
   font-weight: 700;
   font-size: 100px;
+  color: white;
 }
 
 h2 {
