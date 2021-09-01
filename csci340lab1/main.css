@@ -8,8 +8,11 @@ header {
 }
 
 .jumbotron {
-  background-color: black;
+  display: flex;
+  align-items: center;
+  color: black;
   text-align: center;
+  height: 200px;
 }
 
 .jumbotron h1 {
