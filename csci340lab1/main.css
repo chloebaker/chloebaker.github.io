@@ -7,6 +7,20 @@ header {
   padding: 10px;
 }
 
+h2 {
+  font-family: 'Astloch', cursive;
+  font-weight: 700;
+  font-color: #FFC65A;
+}
+
+p {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  font-color: black;
+  text-align: left;
+}
+
 .jumbotron {
   display: flex;
   align-items: center;
@@ -23,16 +37,6 @@ header {
   color: white;
 }
 
-h2 {
-  font-family: 'Astloch', cursive;
-  font-weight: 700;
-  font-color: #FFC65A;
-}
-
-p {
-  font-family: 'Raleway', sans-serif;
-  font-weight: 300;
-  font-size: 20px;
-  font-color: black;
-  text-align: left;
+.jumbotron p {
+  color: white;
 }
