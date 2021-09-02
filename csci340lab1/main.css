@@ -14,6 +14,7 @@ header {
 }
 
 h2 {
+  padding: 5px;
   font-family: 'Astloch', cursive;
   font-weight: 700;
   color: white;
@@ -22,6 +23,7 @@ h2 {
 }
 
 p {
+  padding: 2px;
   font-family: 'Raleway', sans-serif;
   font-weight: 300;
   font-size: 20px;
@@ -34,6 +36,7 @@ p {
 }
 
 .jumbotron {
+  margin: 10px;
   display: flex;
   background-image: url(https://www.maxpixel.net/static/photo/2x/Halloween-Pumpkin-Party-Scary-Fun-Festivity-4597886.jpg);
   background-size: cover;
