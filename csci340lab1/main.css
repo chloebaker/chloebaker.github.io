@@ -40,3 +40,7 @@ p {
 .jumbotron p {
   color: white;
 }
+
+img {
+  width: 100%;
+}
