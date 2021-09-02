@@ -1,6 +1,6 @@
 
 body {
-
+  background-color: #FFC65A;
 }
 
 header {
@@ -10,7 +10,7 @@ header {
 h2 {
   font-family: 'Astloch', cursive;
   font-weight: 700;
-  font-color: #FFC65A;
+  font-color: white;
 }
 
 p {
