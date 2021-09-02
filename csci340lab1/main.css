@@ -5,6 +5,12 @@ body {
 
 header {
   padding: 10px;
+  display: flex;
+  align-items: center;
+  color: black;
+  background-color: black;
+  text-align: center;
+  height: 250px;
 }
 
 h2 {
@@ -28,22 +34,21 @@ p {
 }
 
 .jumbotron {
-  display: flex;
-  align-items: center;
-  color: black;
-  background-color: black;
-  text-align: center;
-  height: 200px;
+  display: block;
+  background-image: url(https://www.maxpixel.net/static/photo/2x/Halloween-Pumpkin-Party-Scary-Fun-Festivity-4597886.jpg);
+  background-size: cover;
+  height: 400px;
+  align-items: end;
 }
 
-.jumbotron h1 {
+header h1 {
   font-family: 'Astloch', cursive;
   font-weight: 700;
   font-size: 100px;
   color: white;
 }
 
-.jumbotron p {
+header p {
   color: white;
 }
 
@@ -63,8 +68,16 @@ ul {
   list-style: none;
 }
 
+#openingLine {
+  align-items: end;
+}
+
 #openingLine p {
   text-align: right;
-  font-size: 28px;
+  font-size: 25px;
+  color: white;
+}
+
+.jumbotron p {
   color: white;
 }
