@@ -7,8 +7,8 @@ header {
   padding: 10px;
   display: flex;
   align-items: center;
-  color: black;
   background-color: black;
+  background-size: cover;
   text-align: center;
   height: 250px;
 }
@@ -34,11 +34,12 @@ p {
 }
 
 .jumbotron {
-  display: block;
+  display: flex;
   background-image: url(https://www.maxpixel.net/static/photo/2x/Halloween-Pumpkin-Party-Scary-Fun-Festivity-4597886.jpg);
   background-size: cover;
-  height: 400px;
+  height: 500px;
   align-items: end;
+  vertical-align: bottom;
 }
 
 header h1 {
