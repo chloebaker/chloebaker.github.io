@@ -11,6 +11,8 @@ h2 {
   font-family: 'Astloch', cursive;
   font-weight: 700;
   font-color: white;
+  align-items: flex-end;
+  font-size: 60px;
 }
 
 p {
@@ -18,7 +20,11 @@ p {
   font-weight: 300;
   font-size: 20px;
   font-color: black;
-  text-align: left;
+  align-items: flex-end;
+}
+
+.container {
+  display: block;
 }
 
 .jumbotron {
@@ -49,4 +55,16 @@ header nav {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
+}
+
+ul {
+  display: block;
+  align-items: flex-end;
+}
+
+#openingLine {
+  align-items: flex-end;
+  font-size: 40;
+  color: white;
+  font-weight: 700;
 }
