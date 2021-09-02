@@ -10,7 +10,7 @@ header {
 h2 {
   font-family: 'Astloch', cursive;
   font-weight: 700;
-  font-color: white;
+  color: white;
   text-align: right;
   font-size: 60px;
 }
@@ -19,7 +19,7 @@ p {
   font-family: 'Raleway', sans-serif;
   font-weight: 300;
   font-size: 20px;
-  font-color: black;
+  color: black;
   text-align: right;
 }
 
@@ -63,7 +63,7 @@ ul {
   list-style: none;
 }
 
-#openingLine {
+#openingLine p {
   text-align: right;
   font-size: 40;
   color: white;
