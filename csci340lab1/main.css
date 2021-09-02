@@ -36,9 +36,8 @@ p {
 }
 
 .jumbotron {
-  margin: 10px;
-  display: flex;
-  flex-wrap: wrap;
+  padding: 15px;
+  display: block;
   background-image: url(https://www.maxpixel.net/static/photo/2x/Halloween-Pumpkin-Party-Scary-Fun-Festivity-4597886.jpg);
   background-size: cover;
   height: 500px;
