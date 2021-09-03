@@ -76,14 +76,11 @@ ul {
   list-style: none;
 }
 
-#openingLine {
-  align-items: center;
-}
-
 #openingLine p {
   text-align: left;
   font-size: 35px;
   color: white;
+  vertical-align: center;
 }
 
 .jumbotron p {
