@@ -14,7 +14,7 @@ header {
 }
 
 section {
-  margin: 20px;
+  margin: 35px;
 }
 
 h2 {
@@ -85,4 +85,11 @@ ul {
 
 .jumbotron p {
   color: white;
+}
+
+a {
+  font-family: 'Raleway', sans-serif;
+  font-size: 5px;
+  color: black;
+  text-align: left;
 }
