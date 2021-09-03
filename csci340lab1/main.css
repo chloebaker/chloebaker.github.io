@@ -9,7 +9,7 @@ header {
   align-items: center;
   background-color: black;
   text-align: center;
-  height: 200px;
+  height: 220px;
   width: 100%;
 }
 
@@ -40,6 +40,7 @@ p {
 }
 
 .jumbotron {
+  margin: 0px;
   padding: 15px;
   display: block;
   background-image: url(https://www.maxpixel.net/static/photo/2x/Halloween-Pumpkin-Party-Scary-Fun-Festivity-4597886.jpg);
@@ -76,12 +77,12 @@ ul {
 }
 
 #openingLine {
-  align-items: end;
+  align-items: center;
 }
 
 #openingLine p {
-  text-align: right;
-  font-size: 25px;
+  text-align: left;
+  font-size: 30px;
   color: white;
 }
 
