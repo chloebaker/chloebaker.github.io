@@ -1,0 +1,59 @@
+
+body {
+  background-color: white;
+}
+
+header {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  background-color: pink;
+  text-align: center;
+  height: 220px;
+  width: 100%;
+}
+
+button {
+  margin: 10px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 25px;
+  color: hotpink;
+  text-align: center;
+}
+
+section {
+  margin: 35px;
+}
+
+h1 {
+  font-family: 'Cookie', cursive;
+  font-weight: 700;
+  font-size: 100px;
+  color: white;
+}
+
+h2 {
+  margin: 15px;
+  font-family: 'Cookie', cursive;
+  font-weight: 700;
+  color: hotpink;
+  text-align: left;
+  font-size: 60px;
+}
+
+p {
+  margin: 10px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  color: black;
+  text-align: left;
+}
+
+a {
+  margin-left: 10px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 10px;
+  color: hotpink;
+  text-align: left;
+}
