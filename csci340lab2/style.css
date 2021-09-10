@@ -23,7 +23,7 @@ button .btn .btn-outline-primary {
   margin: 10px;
   font-family: 'Montserrat', sans-serif;
   font-size: 25px;
-  background-color: hotpink;
+  outline-color: hotpink;   //https://stackoverflow.com/questions/50498667/how-to-change-blue-outline-color-of-a-button-when-clicked-bootstrap-4
   text-align: center;
 }
 
@@ -62,4 +62,8 @@ a {
   font-size: 10px;
   color: hotpink;
   text-align: left;
+}
+
+.container {
+  display: block;
 }
