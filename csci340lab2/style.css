@@ -13,11 +13,17 @@ header {
   width: 100%;
 }
 
-button {
+header nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+button .btn .btn-outline-primary {
   margin: 10px;
   font-family: 'Montserrat', sans-serif;
   font-size: 25px;
-  color: hotpink;
+  background-color: hotpink;
   text-align: center;
 }
 
