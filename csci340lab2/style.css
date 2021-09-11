@@ -29,7 +29,7 @@ header nav {
 .btn-primary:active {
   margin: 5px;
   color: white;
-  background-color: lightgreen;
+  background-color: purple;
   border-color: white;
   outline-color: white;
 }
@@ -86,4 +86,10 @@ img {
 #nekoImages {
   display: block;
   align-items: center;
+  padding: 15px;
+}
+
+#nekoImages img {
+  border: 5px;
+  border-color: plum;
 }
