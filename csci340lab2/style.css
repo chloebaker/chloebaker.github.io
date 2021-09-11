@@ -4,12 +4,12 @@ body {
 }
 
 header {
-  padding: 20px;
+  padding: 10px;
   display: block;
   align-items: center;
   background-color: pink;
   text-align: center;
-  height: 230px;
+  height: 250px;
 }
 
 header nav {
@@ -19,7 +19,7 @@ header nav {
 }
 
 .btn-primary, .btn-primary:hover {
-  margin: 30px;
+  margin: 5px;
   color: white;
   background-color: hotpink;
   border-color: white;
@@ -27,7 +27,7 @@ header nav {
 }
 
 .btn-primary:active {
-  margin: 30px;
+  margin: 5px;
   color: white;
   background-color: lightgreen;
   border-color: white;
@@ -39,6 +39,7 @@ section {
 }
 
 h1 {
+  margin: 20px;
   font-family: 'Cookie', cursive;
   font-weight: 700;
   font-size: 80px;

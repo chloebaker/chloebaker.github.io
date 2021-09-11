@@ -55,6 +55,7 @@ $(document).ready(function() {
       success: function(results) {
         console.log("good");
         $("<img>").attr("src", results["url"]).appendTo("#nekoss");
+      },
       error: function(xhr,status,error) {
         console.log(error);
       }
