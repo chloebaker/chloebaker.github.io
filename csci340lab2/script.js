@@ -8,9 +8,9 @@ $(document).ready(function() {
         document.getElementById("poster").innerHTML = "";
         document.getElementById("animeTitle").innerHTML = "";
         document.getElementById("animeDescription").innerHTML = "";
-        var numAnime = results["data"][0]["attributes"].length;
+        var numAnime = results["data"].length;
         var randomNum = Math.floor(Math.random() * (numAnime - 1));
-        var anime =  results["data"][0]["attributes"][randomNum];
+        var anime =  results["data"][randomNum]["attributes"];
         $("<img>").attr("src", anime["posterImage"]["medium"]).appendTo("#poster");
         $("<h2>").text(anime["canonicalTitle"]).appendTo("#animeTitle");
         $("<p>").text(anime["synopsis"]).appendTo("#animeDescription");
@@ -30,9 +30,9 @@ $(document).ready(function() {
         document.getElementById("poster").innerHTML = "";
         document.getElementById("animeTitle").innerHTML = "";
         document.getElementById("animeDescription").innerHTML = "";
-        var numAnime = results["data"][0]["attributes"].length;
+        var numAnime = results["data"].length;
         var randomNum = Math.floor(Math.random() * (numAnime - 1));
-        var anime =  results["data"][0]["attributes"][randomNum];
+        var anime =  results["data"][randomNum]["attributes"];
         $("<img>").attr("src", anime["posterImage"]["medium"]).appendTo("#poster");
         $("<h2>").text(anime["canonicalTitle"]).appendTo("#animeTitle");
         $("<p>").text(anime["synopsis"]).appendTo("#animeDescription");

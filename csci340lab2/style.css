@@ -22,12 +22,14 @@ header nav {
     color: white;
     background-color: hotpink;
     border-color: white;
+    outline-color: white;
 }
 
 .btn-primary:active {
     color: white;
     background-color: lightgreen;
     border-color: white;
+    outline-color: white;
 }
 
 section {
