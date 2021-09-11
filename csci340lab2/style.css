@@ -83,13 +83,12 @@ img {
   width: 200px;
 }
 
-#nekoImages {
+div #nekoImages {
   display: block;
   align-items: center;
   padding: 15px;
 }
 
 #nekoImages img {
-  border: 5px;
-  border-color: plum;
+  border: 5px solid plum;
 }
