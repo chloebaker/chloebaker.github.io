@@ -8,7 +8,8 @@ $(document).ready(function() {
         document.getElementById("poster").innerHTML = "";
         document.getElementById("animeTitle").innerHTML = "";
         document.getElementById("animeDescription").innerHTML = "";
-        var randomNum = Math.floor(Math.random() * (results["attributes"].length - 1));
+        var numAnime = results["data"][0]["attributes"].length;
+        var randomNum = Math.floor(Math.random() * (numAnime - 1));
         var anime =  results["attributes"][randomNum];
         $("<img>").attr("src", anime["posterImage"]["medium"]).appendTo("#poster");
         $("<h2>").text(anime["canonicalTitle"]).appendTo("#animeTitle");
@@ -29,7 +30,8 @@ $(document).ready(function() {
         document.getElementById("poster").innerHTML = "";
         document.getElementById("animeTitle").innerHTML = "";
         document.getElementById("animeDescription").innerHTML = "";
-        var randomNum = Math.floor(Math.random() * (results["attributes"].length - 1));
+        var numAnime = results["data"][0]["attributes"].length;
+        var randomNum = Math.floor(Math.random() * (numAnime - 1));
         var anime =  results["attributes"][randomNum];
         $("<img>").attr("src", anime["posterImage"]["medium"]).appendTo("#poster");
         $("<h2>").text(anime["canonicalTitle"]).appendTo("#animeTitle");
