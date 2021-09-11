@@ -4,8 +4,6 @@ $(document).ready(function() {
     document.getElementById("poster").innerHTML = "";
     document.getElementById("animeTitle").innerHTML = "";
     document.getElementById("animeDescription").innerHTML = "";
-    document.getElementById("nekoss").innerHTML = "";
-    document.getElementById("nekoButton").innerHTML = "";
   };
 
   var findAnime = function(category) {
@@ -15,6 +13,7 @@ $(document).ready(function() {
       success: function(results) {
         console.log("good");
         clearPage();
+        document.getElementById("nekoImages").innerHTML = "";
         var numAnime = results["data"].length;
         var randomNum = Math.floor(Math.random() * (numAnime - 1));
         var anime =  results["data"][randomNum]["attributes"];
@@ -45,16 +44,12 @@ $(document).ready(function() {
   });
 
   $('#nekos').click(function() {
-    clearPage();
-    $("<button>").addClass("btn btn-primary").html("Give me a neko!").attr("id", "nekoImage").appendTo("#nekoButton");
-  })
-
-  $('#nekoImage').click(function() {
     $.ajax({
       dataType: "json",
       url: "https://nekos.best/api/v1/nekos",
       success: function(results) {
         console.log("good");
+        clearPage();
         $("<img>").attr("src", results["url"]).appendTo("#nekoss");
       },
       error: function(xhr,status,error) {
