@@ -83,7 +83,7 @@ img {
   width: 200px;
 }
 
-div #nekoImages {
+#nekoImages {
   display: block;
   align-items: center;
   padding: 15px;
