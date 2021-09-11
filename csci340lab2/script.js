@@ -45,6 +45,7 @@ $(document).ready(function() {
   });
 
   $('#nekos').click(function() {
+    clearPage();
     $("<button>").addClass("btn btn-primary").html("Give me a neko!").attr("id", "nekoImage").appendTo("#nekoButton");
   })
 
