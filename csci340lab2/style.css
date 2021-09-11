@@ -82,3 +82,8 @@ a {
 img {
   width: 200px;
 }
+
+#nekoImages {
+  display: block;
+  align-items: center;
+}
