@@ -21,7 +21,7 @@ header nav {
 .btn {
   margin: 10px;
   background-color: hotpink;   /* https://stackoverflow.com/questions/50498667/how-to-change-blue-outline-color-of-a-button-when-clicked-bootstrap-4 */
-  outline-color: white;
+  borrder-color: white;
 }
 
 section {
@@ -57,6 +57,7 @@ button p {
   font-family: 'Montserrat', sans-serif;
   font-size: 25px;
   text-align: center;
+  color: white;
 }
 
 a {
