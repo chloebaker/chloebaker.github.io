@@ -18,10 +18,16 @@ header nav {
   justify-content: space-evenly;
 }
 
-.btn {
-  margin: 10px;
-  background-color: hotpink;   /* https://stackoverflow.com/questions/50498667/how-to-change-blue-outline-color-of-a-button-when-clicked-bootstrap-4 */
-  borrder-color: white;
+.btn-primary, .btn-primary:hover {
+    color: white;
+    background-color: hotpink;
+    border-color: white;
+}
+
+.btn-primary:active {
+    color: white;
+    background-color: lightgreen;
+    border-color: white;
 }
 
 section {
