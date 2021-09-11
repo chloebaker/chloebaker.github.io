@@ -36,6 +36,14 @@ $(document).ready(function() {
     findAnime("magical%20girl");
   });
 
+  $('#supernatural').click(function() {
+    findAnime("supernatural");
+  });
+
+  $('#friendship').click(function() {
+    findAnime("friendship");
+  });
+
   $('#nekos').click(function() {
     $("<button>").addClass("btn btn-primary").html("Give me a neko!").attr("id", "nekoImage").appendTo("#nekoButton");
   })
