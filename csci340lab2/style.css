@@ -18,12 +18,9 @@ header nav {
   justify-content: space-evenly;
 }
 
-button .btn .btn-outline-primary {
+.btn {
   margin: 10px;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 25px;
-  outline-color: hotpink;   /* https://stackoverflow.com/questions/50498667/how-to-change-blue-outline-color-of-a-button-when-clicked-bootstrap-4 */
-  text-align: center;
+  background-color: hotpink;   /* https://stackoverflow.com/questions/50498667/how-to-change-blue-outline-color-of-a-button-when-clicked-bootstrap-4 */
 }
 
 section {
@@ -53,6 +50,12 @@ p {
   font-size: 20px;
   color: black;
   text-align: left;
+}
+
+button p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 25px;
+  text-align: center;
 }
 
 a {
