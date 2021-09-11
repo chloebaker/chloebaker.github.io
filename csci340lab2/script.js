@@ -48,9 +48,9 @@ $(document).ready(function() {
       dataType: "json",
       url: "https://nekos.best/api/v1/nekos",
       success: function(results) {
-        console.log("good");
+        console.log(results["url"]);
         clearPage();
-        $("<img>").attr("src", results["url"]).appendTo("#nekoss");
+        $("<img>").attr("src", results["url"]).appendTo("#nekoImages");
       },
       error: function(xhr,status,error) {
         console.log(error);
